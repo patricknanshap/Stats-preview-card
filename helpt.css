@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.boxmodel{
+    border: none;
+    display: inline-block;
+    margin: 20px 50px;
+    color: white;
+}
+
+section{
+    background-color: rgb(29, 8, 29);
+    text-align: center;
+    
+}
+
+.main p{
+    color: grey;
+}
+
+h1{
+    color: white;
+    margin-top: 70px;
+}
+
+span{
+    color: rgb(138, 43, 226);
+}
+
+.boxmodel span{
+    color: grey;
+}
+
+section{
+    float: none;
+    width: 50%;
+}
+
+.aside{
+    float: right;
+    width: 50%;
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
